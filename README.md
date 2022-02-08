@@ -18,7 +18,7 @@ At the beginning of the file:<br>
 ```
 openssl_conf = default_conf
 ```
-
+<br>
 At the end of the file:<br>
 ```
 [ default_conf ]
@@ -33,5 +33,5 @@ system_default = system_default_sect
 MinProtocol = TLSv1
 CipherString = DEFAULT:@SECLEVEL=1
 ```
-
+<br>
 Please note that you are configuring OpenSSL to utilize insecure SSL protocols by making this change, inherently making your system less secure.<br>
